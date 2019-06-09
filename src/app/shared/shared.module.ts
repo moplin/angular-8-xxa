@@ -4,9 +4,14 @@ import { WoobaLoobaComponent } from './components/wooba-looba/wooba-looba.compon
 import {InputTextModule} from 'primeng/inputtext';
 import {ButtonModule} from 'primeng/button';
 
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 @NgModule({
   imports: [
-    CommonModule, InputTextModule, ButtonModule
+    CommonModule, 
+    InputTextModule, 
+    ButtonModule,
+    FlexLayoutModule
   ],
   declarations: [
     WoobaLoobaComponent

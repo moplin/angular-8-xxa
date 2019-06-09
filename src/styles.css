@@ -1,1 +1,18 @@
-/* Add application styles & imports to this file! */
+p-button {
+  margin: 5px 5px;
+}
+
+input {
+  margin: 5px 5px;
+}
+
+label {
+  display: block;
+}
+
+#wooba-looba {
+  max-width: 450px;
+  border: 1px solid #cacaca;
+  padding: 10px;
+  border-radius: 5px;
+}
