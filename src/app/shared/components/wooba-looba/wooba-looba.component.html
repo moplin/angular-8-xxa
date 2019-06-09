@@ -1,10 +1,12 @@
 <div fxLayout="row" fxLayoutAlign="space-around center">
 
-	<div id="wooba-looba">
-		<label for="nombre">wooba-looba rocks!</label>
-<input type="text" id="nombre" pInputText placeholder="Tu nombre"/>
-<p-button label="Guardar" ></p-button>
-</div>
-
+    <div id="wooba-looba" fxHide.xs>
+        <label for="nombre">wooba-looba rocks! And hides on x small screens</label>
+        <input type="text" id="nombre" pInputText placeholder="Tu nombre"/>
+        <p-button label="Guardar" ></p-button>
+    </div>
+    <div id="wooba-looba" fxHide.gt-xs fxShow.xs>
+      This is a x small screen.
+    </div>
 
 </div>
