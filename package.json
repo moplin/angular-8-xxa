@@ -22,6 +22,7 @@
     "@swimlane/ngx-charts": "^11.1.0",
     "@swimlane/ngx-graph": "6.0.1",
     "core-js": "2.6.9",
+    "ngx-logger": "^3.3.13",
     "ngx-reactivetoolkit": "^5.1.1",
     "primeicons": "1.0.0",
     "primeng": "7.1.3",

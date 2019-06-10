@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NGXLogger } from 'ngx-logger';
 
 @Component({
   selector: 'mop-app',
@@ -7,5 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'moplinApp wooba-looba rocks';
+  constructor(private logger: NGXLogger){
+  }
+
 }
                            

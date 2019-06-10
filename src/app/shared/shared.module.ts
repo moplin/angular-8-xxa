@@ -4,7 +4,7 @@ import { WoobaLoobaComponent } from './components/wooba-looba/wooba-looba.compon
 import {InputTextModule} from 'primeng/inputtext';
 import {ButtonModule} from 'primeng/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { NgxGraphModule } from '@swimlane/ngx-graph';
+// import { NgxGraphModule } from '@swimlane/ngx-graph';
 
 @NgModule({
   imports: [
@@ -12,7 +12,7 @@ import { NgxGraphModule } from '@swimlane/ngx-graph';
     InputTextModule, 
     ButtonModule,
     FlexLayoutModule,
-    NgxGraphModule,
+    // NgxGraphModule,
   ],
   declarations: [
     WoobaLoobaComponent
